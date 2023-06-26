@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+body{
+  padding: 0;
+  margin: 0;
+}
+.divPlan{
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  background-color: #F0F3F4;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  display: flex;
+}
+.card{
+  background-color: #2E4053;
+  height: 80%;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+}
+.title{
+  color: white;
+  font-size: 15px;
+  margin-top: 10%;
+  position: relative;
+  top: 10%;
+  
+}
+.divImage{
+  width: 50%;
+  height: 60%;
+  background-color: white;
+  position: relative;
+  top: 20%;
+  left: 25%;
+}
+.imageGame{
+  width: 100%;
+  height: 100%;
+}
